@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.home {
+    background-image: url(./programming.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    max-width: 100%;
+    margin-top: 50px;
+    
+}
+.home h1 {
+    padding: 200px 0 0 150px;
+    color: #fff;
+
+}
+.home h3 {
+    padding: 0 0 0 220px;
+    color: #fff;
+    font-size: 20px;
+}
+.color {
+    color: #7fffd4;
+}
+.home p {
+    padding: 10px 0 0 50px;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 18px;
+
+}
+.home button {
+    display: inline-block;
+    background: transparent;
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    position: relative;
+    left: 220px;
+ 
+}
+.home img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.list h1{
+    font-size: 25px;
+    padding-right: 350px;
+}
+.list ol li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 60px;
+    margin: 10px 0 0 0;
+}
+.list a {
+    text-decoration: none;
+    color: #808080;
+}
+.about {
+    margin: 70px 0 0 0;
+}
+.about h1 {
+    text-align: center;
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.image {
+    background-image: url(./WhatsApp\ Image\ 2022-10-28\ at\ 9.48.00\ PM.jpeg);
+    background-repeat: no-repeat;
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    border: 1px solid #d3d3d3;
+    margin-left: 20px ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.image hr {
+    width: 90%;
+}
+.image p {
+    padding: 5px 0 0 0;
+    font-size: 18px;
+}
+.objective h1 {
+    font-size: 25px;
+    padding: 150px 0 20px 450px;
+}
+.objective p {
+    padding: 0 0 0 450px;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+.work {
+        margin: 70px 0 0 0;
+    }
+.work h1 {
+        text-align: center;
+}
+.workdone {
+    margin-top: 50px;
+}
+.workdone img {
+    border-radius: 10px;
+}
+.workdone button{
+    margin-left:20px ;
+    background-color: #808080;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.workdone button:hover {
+    background-color: #7fffd4;
+    cursor: pointer;
+}
+.workdone1 {
+    margin-top: 30px;
+}
+.workdone1 img {
+    border-radius: 10px;
+}
+.workdone1 button{
+    margin-left:20px ;
+    background-color: #808080;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.workdone1 button:hover {
+    background-color: #7fffd4;
+    cursor: pointer;
+}
+.workdone2 {
+    margin-top: 30px;
+}
+.workdone2 img {
+    border-radius: 10px;
+}
+.workdone2 button{
+    margin-left:20px ;
+    background-color: #808080;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.workdone2 button:hover {
+    background-color: #7fffd4;
+    cursor: pointer;
+}
+.workdone3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.workdone3 img {
+    border-radius: 10px;
+}
+.workdone3 button{
+    margin-left:20px ;
+    background-color: #808080;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.workdone3 button:hover {
+    background-color: #7fffd4;
+    cursor: pointer;
+}
+.contact {
+    margin: 70px 0 0 0;
+}
+.contact h1 {
+    text-align: center;
+}
+.form {
+    margin: 30px 0 0 500px;
+    cursor: pointer;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0;
+}
+
+.form .textinput {
+    width: 40%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+.form button {
+    margin: 20px 0;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #7fffd4;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.feedback{
+    width: 40%;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #d3d3d3;
+}
+.copy {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 50px;
+}
